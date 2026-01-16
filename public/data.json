@@ -1,0 +1,167 @@
+{
+  "en": {
+    "heroSection": {
+      "greeting": "Hi!",
+      "intro": "Creative thinker Minimalism lover",
+      "profileImage": "profile-image.jpg",
+      "name": "Almila",
+      "surname": "Su",
+
+      "socials": [
+        {
+          "logo": "logo-linkeding.png",
+          "alt_text": "linkedin",
+          "link": "https://example.com"
+        },
+        {
+          "logo": "logo-github.png",
+          "alt_text": "github",
+          "link": "https://github.com"
+        }
+      ],
+      "ctaHTML": "I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me."
+    },
+    "skillsSection": {
+      "title": "Skills",
+      "skills": [
+        {
+          "name": "Java Script",
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "name": "React.Js",
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "name": "Node.Js",
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+
+    "profileSection": {
+      "title": "Profile",
+      "birthday": "24.03.1996",
+      "birthdayTitle": "Birthday",
+      "city": "Ankara, Turkey",
+      "cityTitle": "City",
+      "education": "Hacettepe Ünv.  Biyoloji Lisans, 2016",
+      "educationTitle": "Education",
+      "preferredPosition": "Frontend Developer",
+      "preferredPositionTitle": "Preferred Position",
+      "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+
+    "projectsSection": {
+      "title": "Projects",
+      "projects": [
+        {
+          "name": "Workintech",
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+          "githubLink": "https://example.com/proje1",
+          "websiteLink": "https://example.com/proje1",
+          "imgLink": "../public/p1.png",
+          "techStack": ["react", "redux", "axios"]
+        },
+        {
+          "name": "Random Jokes",
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+          "githubLink": "https://example.com/proje1",
+          "websiteLink": "https://example.com/proje1",
+          "imgLink": "../public/p2.png",
+          "techStack": ["javascript", "css", "html"]
+        },
+        {
+          "name": "Journey",
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+          "githubLink": "https://example.com/proje1",
+          "websiteLink": "https://example.com/proje1",
+          "imgLink": "../public/p3.png",
+          "techStack": ["react", "tanstack", "tailwind"]
+        }
+      ]
+    }
+  },
+  "tr": {
+    "heroSection": {
+      "greeting": "Merhaba!",
+      "intro": "Ben bir kahramanım",
+      "profileImage": "profile-image.jpg",
+      "name": "Fasulye",
+      "surname": "the küçük e",
+      "socials": [
+        {
+          "logo": "logo-linkeding.png",
+          "alt_text": "linkedin",
+          "link": "https://example.com"
+        },
+        {
+          "logo": "logo-github.png",
+          "alt_text": "github",
+          "link": "https://github.com"
+        }
+      ],
+      "ctaHTML": "Şu anda <strong>Amsterdam</strong>'da <strong>Frontend Developer</strong> I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me."
+    },
+    "skillsSection": {
+      "title": "Yetenekler",
+      "skills": [
+        {
+          "name": "Java Script",
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "name": "React.Js",
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "name": "Node.Js",
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+
+    "profileSection": {
+      "title": "Profil",
+      "birthday": "24.03.1996",
+      "birthdayTitle": "Doğum Tarihi",
+      "city": "Ankara, Türkiye",
+      "cityTitle": "İkamet Şehri",
+      "education": "Hacettepe Ünv.  Biyoloji Lisans,2016",
+      "educationTitle": "Eğitim Durumu",
+      "preferredPosition": "Ön uç Geliştirici",
+      "preferredPositionTitle": "Tercih Ettiği Rol",
+      "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+
+    "projectsSection": {
+      "title": "Projeler",
+      "projects": [
+        {
+          "name": "Workintech",
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+          "githubLink": "https://example.com/proje1",
+          "websiteLink": "https://example.com/proje1",
+          "imgLink": "../public/p1.png",
+          "techStack": ["react", "redux", "axios"]
+        },
+        {
+          "name": "Rastgele Şakalar",
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+          "githubLink": "https://example.com/proje1",
+          "websiteLink": "https://example.com/proje1",
+          "imgLink": "../public/p2.png",
+          "techStack": ["javascript", "css", "html"]
+        },
+        {
+          "name": "Yolculuk",
+          "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
+          "githubLink": "https://example.com/proje1",
+          "websiteLink": "https://example.com/proje1",
+          "imgLink": "../public/p3.png",
+          "techStack": ["react", "tanstack", "tailwind"]
+        }
+      ]
+    }
+  }
+}
