@@ -1,30 +1,29 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 const Hero = () => {
-  const [data, setData] = useState(null);
+  const { t } = useContext(LanguageContext);
 
+  /*
+   const [data, setData] = useState(null);
   useEffect(() => {
     axios.get("/data.json").then((response) => {
       console.log(response.data.en.heroSection.name);
       setData(response.data);
     });
   }, []);
-
+ */
   return (
     <section className="flex mx-auto max-w-6xl place-content-between">
       <div className="">
         <p className="text-indigo font-medium text-xl font-inter mb-10">
-          {"------" +
-            data?.en.heroSection.name +
-            " " +
-            data?.en.heroSection.surname}
+          {"------" + t?.heroSection.name + " " + t?.heroSection.surname}
         </p>
         <h1 className="text-midnight text-7xl font-inter font-bold max-w-149 ">
-          {data?.en.heroSection.intro}
+          {t?.heroSection.intro}
         </h1>
         <p className="text-acikgri text-lg font-inter font-normal max-w-138.25 my-10">
-          {data?.en.heroSection.ctaHTML}
+          {t?.heroSection.ctaHTML}
         </p>
 
         <div className="flex gap-4">
@@ -35,7 +34,7 @@ const Hero = () => {
             Hire Me
           </a>
           <a
-            href={data?.en.heroSection.socials[1].link}
+            href={t?.heroSection.socials[1].link}
             className="flex border border-acikindigo rounded-md py-3 w-31.75 h-13  text-acikindigo font-inter font-medium"
           >
             <img
@@ -45,7 +44,7 @@ const Hero = () => {
             Github
           </a>
           <a
-            href={data?.en.heroSection.socials[0].link}
+            href={t?.heroSection.socials[0].link}
             className="flex border border-acikindigo rounded-md py-3 w-31.75 h-13  text-acikindigo font-inter font-medium"
           >
             <img

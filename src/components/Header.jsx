@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { Link } from "react-router-dom";
 const Header = () => {
   const { setLanguage, language, theme, setTheme } =
     useContext(LanguageContext);
@@ -37,12 +38,15 @@ const Header = () => {
         </div>
 
         <div className="flex place-content-between items-center">
-          <h1 className="rotate-30 p-8 rounded-4xl bg-profilmavisi w-8 h-8 flex justify-center items-center text-acikindigo font-bold text-2xl">
-            A
-          </h1>
+          <Link to="/">
+            <h1 className="rotate-30 p-8 rounded-4xl bg-profilmavisi w-8 h-8 flex justify-center items-center text-acikindigo font-bold text-2xl">
+              A
+            </h1>
+          </Link>
           <div className="flex place-content-between  gap-20  text-acikgri font-inter font-medium text-lg ">
-            <a
-              className="
+            <Link to="/skills">
+              <a
+                className="
     px-8 py-3
     border border-transparent
     rounded-md
@@ -50,13 +54,15 @@ const Header = () => {
     hover:text-acikindigo
     hover:border-acikindigo
   "
-              href="#"
-            >
-              Skills
-            </a>
-            <a
-              href="#"
-              className="
+                href="#"
+              >
+                Skills
+              </a>
+            </Link>
+            <Link to="/projects">
+              <a
+                href="#"
+                className="
     px-8 py-3
     border border-transparent
     rounded-md
@@ -64,12 +70,15 @@ const Header = () => {
     hover:text-acikindigo
     hover:border-acikindigo
   "
-            >
-              Projects
-            </a>
-            <a
-              href="#"
-              className="
+              >
+                Projects
+              </a>
+            </Link>
+
+            <Link to="/hireme">
+              <a
+                href="#"
+                className="
     px-8 py-3
     border border-transparent
     rounded-md
@@ -77,9 +86,10 @@ const Header = () => {
     hover:text-acikindigo
     hover:border-acikindigo
   "
-            >
-              Hire me
-            </a>
+              >
+                Hire me
+              </a>
+            </Link>
           </div>
         </div>
       </header>
