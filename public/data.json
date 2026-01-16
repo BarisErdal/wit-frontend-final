@@ -80,6 +80,25 @@
           "techStack": ["react", "tanstack", "tailwind"]
         }
       ]
+    },
+
+    "footerSection": {
+      "text": "Let’s work together on your next product.",
+      "email": "almilasucode@gmail.com",
+      "links": [
+        {
+          "name": "Personal Blog",
+          "href": "https://almilasucode.github.io/"
+        },
+        {
+          "name": "Github",
+          "href": "https://almilasucode.github.io/"
+        },
+        {
+          "name": "Linkedin",
+          "href": "https://www.linkedin.com/in/almilasucode/"
+        }
+      ]
     }
   },
   "tr": {
@@ -160,6 +179,25 @@
           "websiteLink": "https://example.com/proje1",
           "imgLink": "../public/p3.png",
           "techStack": ["react", "tanstack", "tailwind"]
+        }
+      ]
+    },
+
+    "footerSection": {
+      "text": "Bir sonraki projenizde beraber çalışalım.",
+      "email": "almilasucode@gmail.com",
+      "links": [
+        {
+          "name": "Personal Blog",
+          "href": "https://almilasucode.github.io/"
+        },
+        {
+          "name": "Github",
+          "href": "https://almilasucode.github.io/"
+        },
+        {
+          "name": "Linkedin",
+          "href": "https://www.linkedin.com/in/almilasucode/"
         }
       ]
     }

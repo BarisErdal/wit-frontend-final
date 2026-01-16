@@ -4,7 +4,7 @@ const Projects = () => {
   const { t } = useContext(LanguageContext);
 
   return (
-    <section className="max-w-6xl mx-auto  border-b pb-10.5 border-ozelgri ">
+    <section className="max-w-6xl mx-auto  mb-30">
       <h2 className="text-5xl font-inter font-semibold text-midnight my-9">
         {t?.projectsSection.title}{" "}
       </h2>
