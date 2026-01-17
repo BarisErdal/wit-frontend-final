@@ -10,33 +10,36 @@ import { Switch, Route } from "react-router-dom/";
 import SkillsPage from "./components/SkillsPage";
 import ProjectsPage from "./components/ProjectsPage";
 import HireMePage from "./components/HireMePage";
+
 function App() {
   return (
-    <LanguageProvider>
-      <Header />
+    <div className="dark:bg-midnight dark:text-white">
+      <LanguageProvider>
+        <Header />
 
-      <Switch>
-        <Route path="/skills">
-          <SkillsPage />
-        </Route>
+        <Switch>
+          <Route path="/skills">
+            <SkillsPage />
+          </Route>
 
-        <Route path="/projects">
-          <ProjectsPage />
-        </Route>
+          <Route path="/projects">
+            <ProjectsPage />
+          </Route>
 
-        <Route path="/hireme">
-          <HireMePage />
-        </Route>
+          <Route path="/hireme">
+            <HireMePage />
+          </Route>
 
-        <Route path="/">
-          <Hero />
-          <Skills />
-          <Profile />
-          <Projects />
-          <Footer />
-        </Route>
-      </Switch>
-    </LanguageProvider>
+          <Route path="/">
+            <Hero />
+            <Skills />
+            <Profile />
+            <Projects />
+            <Footer />
+          </Route>
+        </Switch>
+      </LanguageProvider>
+    </div>
   );
 }
 

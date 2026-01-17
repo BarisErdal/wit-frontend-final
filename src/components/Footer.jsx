@@ -5,9 +5,9 @@ const Footer = () => {
   const { t } = useContext(LanguageContext);
 
   return (
-    <footer className="bg-[#F9F9F9] min-h-102.25">
+    <footer className="bg-[#F9F9F9] min-h-102.25 dark:bg-midnight dark:text-amber-50">
       <div className="max-w-6xl mx-auto pt-21.25">
-        <h2 className="text-midnight font-inter text-[42px] font-semibold max-w-135 ">
+        <h2 className="text-midnight dark:text-amber-50 font-inter text-[42px] font-semibold max-w-135 ">
           {t?.footerSection.text}
         </h2>
         <div className="flex place-content-between mt-15.25">

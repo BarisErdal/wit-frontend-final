@@ -104,7 +104,7 @@
   "tr": {
     "heroSection": {
       "greeting": "Merhaba!",
-      "intro": "Ben bir kahramanım",
+      "intro": "Hero Bölümü",
       "profileImage": "profile-image.jpg",
       "name": "Almila",
       "surname": "SU",
@@ -120,7 +120,7 @@
           "link": "https://github.com"
         }
       ],
-      "ctaHTML": "Şu anda <strong>Amsterdam</strong>'da <strong>Frontend Developer</strong> I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me."
+      "ctaHTML": "Ben full-stack geliştiriciyim. Sağlam ve ölçeklenebilir, harika kullanıcı deneyimleri sunan ön uç ürünler geliştirecek bir geliştirici arıyorsanız, benimle iletişime geçin."
     },
     "skillsSection": {
       "title": "Yetenekler",

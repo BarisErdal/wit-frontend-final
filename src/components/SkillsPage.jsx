@@ -1,4 +1,6 @@
+import Skills from "./Skills";
+
 const SkillsPage = () => {
-  return <div>Skills Page</div>;
+  return <Skills />;
 };
 export default SkillsPage;

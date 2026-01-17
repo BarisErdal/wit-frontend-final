@@ -7,20 +7,20 @@ const Header = () => {
 
   return (
     <>
-      <header className=" max-w-6xl mx-auto mb-22">
-        <div className="flex justify-self-end pb-11">
+      <header className=" max-w-6xl mx-auto mb-22 ">
+        <div className="flex items-center justify-end pb-11 pt-8">
           {/*dark theme button*/}
           <button
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
             className={`
-        w-14 h-8 flex items-center rounded-full p-1
+        w-12 h-6 flex items-center rounded-full p-1
         transition-colors duration-300
         ${theme === "dark" ? "bg-indigo-600" : "bg-gray-300"}
       `}
           >
             <span
               className={`
-          w-6 h-6 bg-[#FFE86E] rounded-full shadow
+          w-4 h-4 bg-[#FFE86E] rounded-full shadow
           transform transition-transform duration-300 cursor-pointer
           ${theme === "dark" ? "translate-x-6" : "translate-x-0"}
         `}
@@ -44,9 +44,9 @@ const Header = () => {
             </h1>
           </Link>
           <div className="flex place-content-between  gap-20  text-acikgri font-inter font-medium text-lg ">
-            <Link to="/skills">
-              <a
-                className="
+            <Link
+              to="/skills"
+              className="
     px-8 py-3
     border border-transparent
     rounded-md
@@ -54,15 +54,12 @@ const Header = () => {
     hover:text-acikindigo
     hover:border-acikindigo
   "
-                href="#"
-              >
-                Skills
-              </a>
+            >
+              Skills
             </Link>
-            <Link to="/projects">
-              <a
-                href="#"
-                className="
+            <Link
+              to="/projects"
+              className="
     px-8 py-3
     border border-transparent
     rounded-md
@@ -70,15 +67,13 @@ const Header = () => {
     hover:text-acikindigo
     hover:border-acikindigo
   "
-              >
-                Projects
-              </a>
+            >
+              Projects
             </Link>
 
-            <Link to="/hireme">
-              <a
-                href="#"
-                className="
+            <Link
+              to="/hireme"
+              className="
     px-8 py-3
     border border-transparent
     rounded-md
@@ -86,9 +81,8 @@ const Header = () => {
     hover:text-acikindigo
     hover:border-acikindigo
   "
-              >
-                Hire me
-              </a>
+            >
+              Hire me
             </Link>
           </div>
         </div>

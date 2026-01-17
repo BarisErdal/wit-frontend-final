@@ -15,7 +15,7 @@ const Projects = () => {
               {project.name}
             </h3>
             <img src={project.imgLink} alt={project.name} />
-            <p>{project.description}</p>
+            <p className="mt-4">{project.description}</p>
 
             <div className="flex gap-1.5 my-4.25">
               {project.techStack.map((tech, techIndex) => (

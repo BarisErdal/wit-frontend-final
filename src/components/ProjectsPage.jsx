@@ -1,4 +1,6 @@
+import Projects from "./Projects";
+
 const ProjectsPage = () => {
-  return <div>Projects Page</div>;
+  return <Projects />;
 };
 export default ProjectsPage;
