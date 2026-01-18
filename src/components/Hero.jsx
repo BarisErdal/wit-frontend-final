@@ -58,7 +58,7 @@ const Hero = () => {
       </div>
       <img
         className="max-w-md  rounded-[18px] object-cover"
-        src="../public/hero-img.png"
+        src="/hero-img.png"
         alt=""
       />
     </section>
