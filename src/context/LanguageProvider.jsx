@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
 import { LanguageContext } from "./LanguageContext";
 import axios from "axios";
-//import data from "../../public/data.json";
+import data from "../../public/data.json";
 
 export function LanguageProvider({ children }) {
   const [language, setLanguage] = useState(
-    localStorage.getItem("lang") || "tr"
+    localStorage.getItem("lang") || "tr",
   );
   const [translations, setTranslations] = useState({});
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
+  /*
   useEffect(() => {
     axios
       .get("../../public/data.json")
@@ -20,7 +21,8 @@ export function LanguageProvider({ children }) {
         console.error("Error fetching translations:", error);
       });
   }, []);
-  /*
+  */
+
   useEffect(() => {
     axios
       .post("https://reqres.in/api/users", data, {
@@ -31,13 +33,12 @@ export function LanguageProvider({ children }) {
       })
       .then((response) => {
         setTranslations(response.data);
+        console.log("Data başarıyla alındı", response.data);
       })
       .catch((error) => {
         console.error("Error :", error);
       });
   }, []);
-
-  */
 
   useEffect(() => {
     const root = document.documentElement;
@@ -50,6 +51,14 @@ export function LanguageProvider({ children }) {
       localStorage.setItem("theme", "light");
     }
   }, [theme]);
+
+  useEffect(() => {
+    if (language === "tr") {
+      localStorage.setItem("language", "tr");
+    } else {
+      localStorage.setItem("language", "en");
+    }
+  }, [language]);
 
   const value = {
     language,

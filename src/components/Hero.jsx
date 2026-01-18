@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Hero = () => {
   const { t } = useContext(LanguageContext);
@@ -27,12 +28,12 @@ const Hero = () => {
         </p>
 
         <div className="flex gap-4">
-          <a
-            href="#"
+          <Link
+            to="/hireme"
             className="border border-acikindigo rounded-md py-3 w-31.75 h-13 text-center text-acikindigo font-inter font-medium hover:bg-acikindigo hover:text-white"
           >
             Hire Me
-          </a>
+          </Link>
           <a
             href={t?.heroSection.socials[1].link}
             className="flex border border-acikindigo rounded-md py-3 w-31.75 h-13  text-acikindigo font-inter font-medium"
