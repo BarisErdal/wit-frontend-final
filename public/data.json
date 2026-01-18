@@ -161,7 +161,7 @@
           "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
           "githubLink": "https://example.com/proje1",
           "websiteLink": "https://example.com/proje1",
-          "imgLink": "../public/p1.png",
+          "imgLink": "/p1.png",
           "techStack": ["react", "redux", "axios"]
         },
         {
@@ -169,7 +169,7 @@
           "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
           "githubLink": "https://example.com/proje1",
           "websiteLink": "https://example.com/proje1",
-          "imgLink": "../public/p2.png",
+          "imgLink": "/p2.png",
           "techStack": ["javascript", "css", "html"]
         },
         {
@@ -177,7 +177,7 @@
           "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible",
           "githubLink": "https://example.com/proje1",
           "websiteLink": "https://example.com/proje1",
-          "imgLink": "../public/p3.png",
+          "imgLink": "/p3.png",
           "techStack": ["react", "tanstack", "tailwind"]
         }
       ]

@@ -39,7 +39,7 @@ const Hero = () => {
             className="flex border border-acikindigo rounded-md py-3 w-31.75 h-13  text-acikindigo font-inter font-medium"
           >
             <img
-              src="../public/github.png"
+              src="/github.png"
               className="w-6 text-acikindigo ml-3 mr-2.5"
             />
             Github
@@ -48,10 +48,7 @@ const Hero = () => {
             href={t?.heroSection.socials[0].link}
             className="flex border border-acikindigo rounded-md py-3 w-31.75 h-13  text-acikindigo font-inter font-medium"
           >
-            <img
-              src="../public/LinkedIn.png"
-              className="w-6  h-6 ml-3 mr-2.5"
-            />
+            <img src="/LinkedIn.png" className="w-6  h-6 ml-3 mr-2.5" />
             LinkedIn
           </a>
         </div>
